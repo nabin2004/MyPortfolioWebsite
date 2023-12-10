@@ -1,4 +1,64 @@
-h1 .crimson{
+.crimson-navbar {
+  background-color: #A41034;
+  height: 60px;
+}
+
+.crimson-navbar a{
+  color: white;
+}
+
+.crimson-navbar a:hover{
+  color: white;
+}
+.crimson-navbar a:visited{
+  color: white;
+}
+.myname{
+  color: #000;
+  display: flex;
   align-items: center;
   justify-content: center;
+  font-family: Londrina Shadow;
+  font-size: 500%;
+  /* font-size: 612px; */
+  font-style: normal;
+  font-weight:800;
+  line-height: normal;
+}
+
+.tag{
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+}
+
+.pointhead{
+  color: #000;
+  font-family: Londrina Shadow;
+  font-style: normal;
+  font-weight:800;
+  line-height: normal;
+}
+
+.bodybelow{
+
+  margin: 30px;
+ 
+}
+.bodyofexp{
+  margin-left: 30px;
+}
+
+.socialHandles{
+  display: flex;
+
+  gap: 10px;
+  justify-content: center;
+}
+
+.socialHandles button{
+  background-color: #A41034;
 }
