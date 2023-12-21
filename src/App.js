@@ -14,13 +14,17 @@ function App() {
       <br/>
       <div className='bodybelow'>
       <Projects />
-      <div className='socialHandles'>
-      <button type="button" class="btn btn-secondary btn-lg">LinkedIn</button>
-      <button type="button" class="btn btn-secondary btn-lg">Github</button>
-      <button type="button" class="btn btn-secondary btn-lg">Facebook</button>
-      <button type="button" class="btn btn-secondary btn-lg">Instagram</button>
-      </div>
       <br/>
+      <br/>
+      <div className='socialHandles'>
+  <a href="https://www.linkedin.com/in/nabinoli/" className="btn btn-secondary btn-lg" target="_blank">LinkedIn</a>
+  <a href="https://github.com/nabin2004" className="btn btn-secondary btn-lg" target="_blank">GitHub</a>
+  <a href="https://olinabin.hashnode.dev" className="btn btn-secondary btn-lg" target="_blank">Hashnode</a>
+  <a href="https://twitter.com/nabintwt" className="btn btn-secondary btn-lg" target="_blank">Twitter</a>
+  <a href="https://docs.google.com/document/d/1mruy3MrAIagWyTg6WSOQ4RdY61qPd_Y8DnKdB1YfKDo/edit?usp=sharing" className="btn btn-secondary btn-lg" target="_blank">My Resume</a>
+</div>
+
+      {/* <br/>
       <Experience />
       <br/>
       <Skills />
@@ -29,7 +33,7 @@ function App() {
       <br/>
       <competitionsAndEvents/>
       <br/>
-      <languageTest />
+      <languageTest /> */}
       </div>
     </>
   );
