@@ -43,7 +43,7 @@ function Body(){
   return(
     <>
     <h1 className='myname'>nabin.py</h1>
-    <p className='tag'>Not your average engineer, not your typical statistician, just an outlier from data science ;-) </p>
+    <p className='tag'>Not your average engineer or your typical statistician, just an outlier from data science ;-) </p>
     </>
   )
 }
